@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+}
+
+body {
+    margin: auto 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cabecera {
+    background-image: url('../img/fondo-banner.jpg');
+    background-position: bottom;
+    background-size: cover;
+    line-height: 300px;
+    text-align: center;
+}
+
+.cabecera img {
+    vertical-align: middle;
+}
+
+.titulo {
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: 'Bangers';
+    font-size: 35px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+.item-menu {
+    display: inline-block;
+}
+
+.item-menu a {
+    color: #005677;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+.separacion {
+    height: 80px;
+}
+
+.espacio-horizontal {
+    display: inline-block;
+    width: 10px;
+}
+
+.espacio-vertical {
+    height: 10px;
+}
+
+.subtitulo {
+    background-color: #C4C4C4;
+    font-family: 'Bangers';
+    line-height: 40px;
+}
+
+.subtitulo h2 {
+    color: #005677;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.resaltado {
+    font-weight: bold;
+}
+
+.columna {
+    padding: 5px 0;
+    vertical-align: top;
+}
+
+.columna p {
+    margin: 0;
+}
+
+.parrafo {
+    text-align: center;
+}
+
+footer {
+    background-color: #005677;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 50px;
+}
+
+.texto-footer {
+    font-family: 'Bangers';
+    letter-spacing: 2px;
+    vertical-align: middle;
+}
+
+.enlace-redes {
+    text-decoration: none;
+}
+
+.enlace-redes img {
+    vertical-align: middle;
+}
+
